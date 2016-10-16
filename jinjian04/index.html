@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS作业03</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#" class="logo-content">百度</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="a.html">导航链接01</a></li>
+                <li><a href="b.html">导航链接01</a></li>
+                <li><a href="c.html">导航链接01</a></li>
+                <li><a href="d.html">导航链接01</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="main">
+        <div class="side-box">
+            <section>
+                <h2>侧栏标题</h2>
+                <form action="">
+                    <div class="user-input">
+                        <label for="">请输入邮箱地址</label>
+                        <input type="text" placeholder="a@a.com"><br>
+                        <p class="demand">邮箱地址请按照要求格式输入</p>
+                    </div>
+                    <div class="user-input">
+                        <label for="password">请输入密码</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="user-input">
+                        <label for="repassword">请重复输入密码</label>
+                        <input type="password" id="repassword"><br>
+                        <p  class="demand">密码为6-16位英文或数字</p>
+                    </div>
+                    <div class="user-input">
+                        <label>性别</label>
+                        <input type="radio" name="sex" value="男">男
+                        <input type="radio" name="sex" value="女">女
+                    </div>
+                    <div class="user-input">
+                        <label>城市</label>
+                        <select name="city">
+                            <option value="">武汉</option>
+                            <option value="">北京</option>
+                            <option value="">上海</option>
+                            <option value="">广州</option>
+                            <option value="">深圳</option>
+                        </select>
+                    </div>
+                    <div class="user-input">
+                        <label>爱好</label>
+                        <input type="checkbox" name="interest" value="science">科学
+                        <input type="checkbox" name="interest" value="sport">运动
+                        <input type="checkbox" name="interest" value="artist">艺术
+                    </div>
+                    <div class="user-input">
+                        <label>个人描述</label>
+                        <textarea name="p-desc" id="p-desc" cols="22" rows="7" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+                    </div>
+                    <button id="submit-btn" type="submit">确认提交</button>
+                </form>
+            </section>
+        </div>
+        <div class="ariticles">
+            <article>
+                <div class="article-head">
+                    <h2>文章一级标题</h2>
+                    <h3>文章二级标题</h3>
+                    <span>文章作者</span>
+                    <time>文章发表时间</time>
+                </div>
+                <div class="article-body">
+                    <p>
+                        这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                    </p>
+                    <img src="images/1.jpg" alt="好看的图片">
+                    <p>
+                        这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="article-head">
+                    <h2>文章一级标题：第二篇文章</h2>
+                    <h3>文章二级标题</h3>
+                    <span>发布时间</span>
+                </div>
+                <div class="article-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam beatae consequatur cumque cupiditate doloribus eius enim esse, harum, id itaque iure molestiae natus nobis, obcaecati quae soluta sunt voluptatem!
+                        <a href="http://baidu.com">链接到百度</a>
+                    </p>
+                    <img src="images/1.jpg" alt="图片">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut commodi debitis dignissimos, dolores, ea incidunt nisi non nostrum placeat praesentium quaerat quia quos reiciendis, reprehenderit sed suscipit totam ut.</p>
+                    <ul>
+                        <li>列表项01</li>
+                        <li>列表项02</li>
+                        <li>列表项03</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <div class="article-head">
+                    <h2><b>图片</b></h2>
+                </div>
+                <div class="article-body">
+                    <dl class="images-show">
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img1.jpg" alt=""></dt>
+                        </dl>
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img2.jpg" alt=""></dt>
+                        </dl>
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img3.jpg" alt=""></dt>
+                        </dl>
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img4.jpg" alt=""></dt>
+                        </dl>
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img5.jpg" alt=""></dt>
+                        </dl>
+                        <dl>
+                            <dd>这是一张好看的图片</dd>
+                            <dt><img src="images/img6.jpg" alt=""></dt>
+                        </dl>
+                    </dl>
+                </div>
+            </article>
+            <article>
+                <div class="article-head">
+                    <h2>文章一级标题：最后一篇文章</h2>
+                    <h3>文章二级标题</h3>
+                </div>
+                <div class="article-body">
+                    <span>作者</span>
+                    <span>发布时间</span>
+                    <ol style="list-style: number">
+                        <li>排名</li>
+                        <li>排名</li>
+                        <li>排名</li>
+                    </ol>
+                    <table class="table" cellspacing="0">
+                        <caption>这是表格的标题</caption>
+                        <thead>
+                        <th>表头1</th>
+                        <th>表头2</th>
+                        <th>表头3</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                        </tr>
+                        <tr>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                        </tr>
+                        <tr>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                        </tr>
+                        <tr>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                            <td>表格内容单元</td>
+                        </tr>
+                        <tfoot>
+                        <tr>
+                            <td>总计</td>
+                            <td colspan="2">100</td>
+                        </tr>
+                        </tfoot>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>版权所有&copy;</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/*清楚默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+/*通用样式*/
+body{
+    font-family: "微软雅黑", Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    font-color: white;
+    background-color: #DEDEDE;
+}
+.clear{
+    clear: both;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+
+
+
+/*头部*/
+.header{
+    background-color: black;
+}
+.logo{
+    float: left;
+}
+.logo-content{
+    display: block;
+    text-indent: -100%;
+    overflow: hidden;
+    background: url("../images/logo.png") no-repeat;
+    width: 117px;
+    height: 38px;
+    margin: 10px 40px;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    margin-right: 10px;
+}
+.nav li{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav li a:visited{
+    color: grey;
+}
+/*主体*/
+.main{
+    margin: 20px 20px 10px 20px;
+}
+.main .user-input{
+    padding: 8px 0;
+}
+.main .user-input .demand{
+    color: #ADB0A9;
+    text-indent: 152px;
+}
+.main .ariticles{
+    margin-right: 420px;
+}
+.main .ariticles article{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px #ADB0A9;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.main .ariticles .article-head h2,h3{
+    margin: 10px 0;
+    padding: 8px 0;
+}
+.main .ariticles .article-body p{
+    margin: 10px 0;
+    font-size: 16px;
+    text-indent: 2em;
+}
+.main .ariticles .article-body li{
+    padding: 5px;
+    font-size: 16px;
+}
+.main .ariticles .article-body ol{
+    padding: 3px;
+    margin: 10px 20px;
+}
+.main .ariticles .article-body .images-show{
+    text-align: center;
+}
+.main .ariticles .article-body .images-show dl{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid grey;
+    margin: 3px;
+    font-size: 14px;
+}
+.main .ariticles .article-body .images-show img{
+    width: 200px;
+    height: 180px;
+}
+.main .side-box{
+    font-size: 14px;
+    box-shadow: 5px 5px #AAA;
+    background-color: #FFFFFF;
+    width: 365px;
+    float: right;
+    margin-right: 20px;
+}
+.main .side-box h2{
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 10px 20px;
+    border-left: 3px solid grey;
+}
+.main .side-box label{
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    padding-right: 20px;
+}
+#submit-btn{
+    cursor: pointer;
+    display: block;
+    background-color: #3355D0;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+#submit-btn:hover{
+    background-color: #268DCD;
+}
+#p-desc{
+    vertical-align: top;
+}
+.table{
+    border: 1px solid grey;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.table th{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.table th,td{
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+/*尾部*/
+.footer{
+    background-color: #000000;
+}
+.footer p{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
